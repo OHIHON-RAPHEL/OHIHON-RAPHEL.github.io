@@ -12,7 +12,6 @@ const Category = () => {
       <h1 className='font-bold mt-8 text-2xl grid justify-center'>Category Breackdown</h1>
       <div className='flex justify-around mt-5'>
          <div className='space-y-7'>
-
           <div className='flex space-x-4'>
             <CircularProgress value={50} color='yellow.700' size='50px' thickness='12px' className='bg-amber-600 rounded-full'>
               <CircularProgressLabel><Icon as={PiBowlFood} className='text-lg'/></CircularProgressLabel>
@@ -31,7 +30,6 @@ const Category = () => {
                 <h4>20%</h4>
              </div>
           </div>
-
          </div>
          <div className='space-y-14'>
            <h4 className='font-bold'>$20,000/$42,000</h4>
@@ -44,5 +42,3 @@ const Category = () => {
 }
 
 export default Category
-
-// @media screen and (max-width: 1024px)

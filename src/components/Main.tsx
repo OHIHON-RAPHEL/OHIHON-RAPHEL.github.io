@@ -6,10 +6,8 @@ import { TbCurrencyNaira } from 'react-icons/tb'
 import { HiOutlineDotsHorizontal } from 'react-icons/hi'
 import {Link} from 'react-router-dom'
 import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
-// import { useMediaQuery } from '@chakra-ui/react'
 
 const Main = () => {
-  // const [isSmallerThan1024] = useMediaQuery('(min-width: 64px)')
   return (
     <div className=' h-fit'>
       <div className=' bg-zinc-100 pt-8'>
@@ -28,7 +26,6 @@ const Main = () => {
 
         </div>
 
-          {/* <div className=''> */}
              <div className='flex justify-around mt-5'>
                 <div className='flex gap-5 text-sm'>
                    <h4>Last Month</h4>
@@ -38,8 +35,6 @@ const Main = () => {
                   <Icon as={HiOutlineDotsHorizontal} />
                 </div>
              </div>
-          {/* </div> */}
-        {/* </div> */}
 
         <div className='flex justify-center mt-10'>
           <CircularProgress value={50} color='blue.700' size='120px' thickness='12px'>
