@@ -1,4 +1,3 @@
-import React from 'react'
 import Category from '../components/Category'
 import Footer from '../components/Footer'
 import { Icon } from '@chakra-ui/react'
@@ -22,9 +21,7 @@ const Main = () => {
            </div>
          </div>
          <div className='text-zinc-100'>.</div>
-
         </div>
-
              <div className='flex justify-around mt-5'>
                 <div className='flex gap-5 text-sm'>
                    <h4>Last Month</h4>
@@ -34,7 +31,6 @@ const Main = () => {
                   <Icon as={HiOutlineDotsHorizontal} />
                 </div>
              </div>
-
         <div className='flex justify-center mt-10'>
           <CircularProgress value={50} color='blue.700' size='120px' thickness='12px'>
              <CircularProgressLabel>49%</CircularProgressLabel>
