@@ -4,8 +4,6 @@ import { Icon } from '@chakra-ui/react'
 import { MdOutlineSavings } from 'react-icons/md'
 import { PiBowlFood } from 'react-icons/pi'
 
-
-
 const Category = () => {
   return (
     <div>
