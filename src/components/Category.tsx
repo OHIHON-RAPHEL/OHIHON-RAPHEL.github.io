@@ -33,7 +33,6 @@ const Category = () => {
            <h4 className='font-bold'>$20,000/$42,000</h4>
            <h4 className='font-bold'>$10,000/$20,000</h4>
          </div>
-
       </div>
     </div>
   )
