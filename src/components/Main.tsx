@@ -6,7 +6,6 @@ import { TbCurrencyNaira } from 'react-icons/tb'
 import { HiOutlineDotsHorizontal } from 'react-icons/hi'
 import {Link} from 'react-router-dom'
 import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
-
 const Main = () => {
   return (
     <div className=' h-fit'>
